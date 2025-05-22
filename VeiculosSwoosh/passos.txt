@@ -1,0 +1,11 @@
+git config --global user.name enegreeli
+git config --global user.email estevaogg123@gmail.com
+
+Criar um projeto API
+dotnet new webapi -o VeiculosSwooshAPI --use-controllers
+
+Get = buscar dados
+Set = escreve dados
+
+
+dotnet add package Swashbuckle.AspNetCore
